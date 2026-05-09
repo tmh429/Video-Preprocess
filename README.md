@@ -10,9 +10,8 @@ conda activate py312
 pip install -r requirements.txt
 ```
 
-依赖：Python 3.10+, ffmpeg（需自行安装并配置路径）
+依赖：Python 3.12, ffmpeg（需自行安装并配置路径）
 
-ffmpeg 路径默认为 `D:\develop\ffmpeg-8.1.1-essentials_build\bin\ffmpeg.exe`，可通过环境变量覆盖：
 
 ```bash
 set FFMPEG_PATH=/path/to/ffmpeg
@@ -46,13 +45,3 @@ jupyter notebook example.ipynb
 ├── datasets/                     # 放置原始 YUV 文件
 └── requirements.txt
 ```
-
-## 关键参数
-
-| 参数 | 值 |
-|------|-----|
-| 分辨率 | 1920x1080 |
-| USM alpha 范围 | -2.0 ~ 3.0（11档） |
-| 码率 | 1000/2000/3000/4000 kbps |
-| 编码器 | H.265 (libx265) |
-| USM 核 | 5x5 Gaussian, sigma=1.0 |
