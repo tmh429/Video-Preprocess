@@ -26,3 +26,5 @@ verify_plots/
 .claude/
 
 CLAUDE.md
+
+verify_visual.py
