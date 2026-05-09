@@ -24,3 +24,5 @@ verify_plots/
 .vscode/
 
 .claude/
+
+.CLAUDE.md
